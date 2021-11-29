@@ -18,7 +18,8 @@ body {
 }
 
 @media (max-width:768px) {
-.aaa { text-align: center;
+.aaa {
+    text-align: center;
 }
 }
 .centered-main-page-element {
@@ -35,8 +36,8 @@ body {
     display: flex;
 }
 ul {
-    margin:0;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 li, h3 {
     list-style:none;
@@ -46,7 +47,7 @@ input,button{
 }
 button {
     background: none;
-    border: 0px;
+    border: 0;
     color: #888;
     font-size: 15px;
     width: 60px;
@@ -115,8 +116,8 @@ li > label {
     font-size: 18px;
     width: 226px;
 }
-li >    input[type="text"] {
-    width: 226px
+li > input[type="text"] {
+    width: 226px;
 }
 button.delete img {
     height: 2em;
@@ -135,14 +136,14 @@ ul#completed-tasks label {
 
 /* Edit Task */
 ul li input[type=text] {
-    display:none
+    display: none;
 }
 
 ul li.editMode input[type=text] {
     display:inline-block;
-    width:224px
+    width: 224px;
 }
 
 ul li.editMode label {
-    display:none;
+    display: none;
 }
