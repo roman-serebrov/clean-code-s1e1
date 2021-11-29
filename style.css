@@ -76,6 +76,7 @@ label[for='new-task'] {
     margin: 0;
     text-transform: uppercase;
 }
+
 input[type="text"] {
     margin: 0;
     font-size: 18px;
@@ -88,6 +89,7 @@ input[type="text"] {
     font-family: Lato, sans-serif;
     color: #888;
 }
+
 input[type="text"]:focus {
     color: #333;
 }
@@ -110,6 +112,7 @@ li {
     justify-content: space-between;
     align-items: center;
 }
+
 li > * {
     vertical-align: middle;
 }
@@ -117,15 +120,18 @@ li > * {
 li > input[type="checkbox"] {
     margin: 0 10px;
 }
+
 li > label {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
     width: 226px;
 }
+
 li > input[type="text"] {
     width: 226px;
 }
+
 .delete img {
     height: 2em;
     transform: rotateZ(45deg);
